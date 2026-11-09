@@ -1,0 +1,14 @@
+{
+  "name": "ptc-fast-enroll",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": { "start": "node server.js", "loadtest": "node loadtest/loadtest.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "pdfkit": "^0.15.0",
+    "qrcode": "^1.5.3"
+  }
+}
